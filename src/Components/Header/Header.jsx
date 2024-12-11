@@ -17,7 +17,7 @@ const Header = () => {
 
             <div className="col-md-12 col-lg-6 textoContainer">
                 <h1 className='principalTitulo'>Hola Soy Leo!</h1>
-                <p className='principalParrafo'>Atención al Público, Gestión de Eventos <br /> Diseñador Gráfico y Desarrollador Web <br />Emprendedor con Experiencia Internacional</p>
+                <p className='principalParrafo'>Profesional en Gestión de eventos y Proyectos  <br /> Sólida Experiencia en Atención al Público<br /> Creativo Digital <br /> Diseñador Gráfico y Desarrollador Web <br />Emprendedor con Experiencia Internacional</p>
                 <div className='flags'>
                   <img src={arg} alt="bandera argentina"  className='banderas'/>
                   <img src={italy} alt="bandera italiana"  className='banderas'/>
@@ -33,7 +33,10 @@ const Header = () => {
             </div>
 
         </div>
-        <Boton to="/portfolio">Ver Portfolio</Boton>
+        
+          <Boton to="/portfolio">Ver Portfolio</Boton>
+          {/* <button className='btnCv'>Descargar CV</button> */}
+      
         
         
     </div>
