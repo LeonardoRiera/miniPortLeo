@@ -1,0 +1,36 @@
+.headerContainer {
+    overflow: hidden;
+    padding: 10vmax 3vmax;
+
+    
+}
+
+
+.fotoContainer{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.textoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principalTitulo {
+    font-size: 5vmax;
+}
+
+.principalParrafo {
+    font-size: 1.5vmax;
+}
+
+
+.foto {
+    width: 50%;
+}
+
