@@ -1,6 +1,6 @@
 .headerContainer {
     overflow: hidden;
-    padding: 10vmax 3vmax;
+    padding: 8vmax 3vmax;
 
     
 }
@@ -32,5 +32,15 @@
 
 .foto {
     width: 50%;
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+   gap: 1vmax;
+}
+
+.banderas {
+    width: 4%;
 }
 
