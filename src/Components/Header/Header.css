@@ -350,8 +350,21 @@
 /* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:469px) {
+
+    .headerContainer {
+        padding: 2vmax 3vmax;
+        
+    
+        
+    }
+  
+
+
+    .principalTitulo {
+        padding-bottom: 0.9vmax;
+    }
     .principalParrafo {
-        font-size: 2vmax;
+        font-size: 1.8vmax;
         padding-bottom: 0.5vmax;
        
        
