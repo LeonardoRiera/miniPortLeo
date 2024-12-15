@@ -11,6 +11,7 @@
     justify-content: start;
     align-items: center;
     width: 30%;
+    color: #212529;
 
    
 }
@@ -18,7 +19,7 @@
 .nombreLinks {
     font-family: 'Satoshi', sans-serif;
     font-size: 1.2vmax;
-    color: rgb(0, 0, 0);
+    color: #212529;
     padding: 1vmax 0;
     
 }
@@ -30,13 +31,14 @@
 
 .hambur {
     border: none;
-    color: black;
+    color:#212529;
     padding: 0;
     margin: 0;
+    z-index: 10;
 }
 
 .cuadrado {
-    width: 15%;
+    width: 4vmax;
     padding: 1vmax;
 }
 
@@ -108,7 +110,7 @@
     }
 
     .cuadrado {
-        width: 18%;
+       
         padding: 1vmax;
     }
 
@@ -211,10 +213,13 @@
 
 @media screen and (max-width:481px) {
 
-   
+    .nvCont {
+        padding: 0 ;
+       
+    }
 
     .hambur {
-        font-size: 2.7vmax;
+        font-size: 2.9vmax;
     }
    
    
@@ -233,7 +238,7 @@
  
     .hambur {
         font-size:3vmax;
-        color: black;
+        color: #212529;
         
     }
    

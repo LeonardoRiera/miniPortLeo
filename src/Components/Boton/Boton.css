@@ -78,7 +78,7 @@
 
     .botonHeader {
         padding: 1.3vmax 2vmax;
-        color: rgb(187, 205, 255);
+       
         font-size: 2.3vmax;
         width: 40%;
        
@@ -154,12 +154,9 @@
     .botonHeader {
        
         padding: 1.8vmax 5vmax;
-       
-       
         margin: 0;
-      
         font-size: 2.2vmax;
-       width: 40%;
+        width: 50%;
        
     
     }

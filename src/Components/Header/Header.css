@@ -305,13 +305,10 @@
 
     .btnCv {
        
-        padding: 1.5vmax 5vmax;
-       
-       
+        padding: 1.5vmax 5vmax;       
         margin: 0;
-      
         font-size: 1.8vmax;
-       width: 60%;
+        width: 60%;
        
     
     }
@@ -322,7 +319,25 @@
 
 @media screen and (max-width:481px) {
 
-   
+    .foto {
+        width: 68%;
+    }
+
+    .principalTitulo {
+        font-size: 6vmax;
+        padding-bottom: 1.5vmax;
+    }
+    
+    .principalParrafo {
+        font-size: 1.8vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
+    .banderas {
+        width: 6%;
+    }
+    
 
    
    
@@ -331,13 +346,22 @@
 /* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:469px) {
-
+    .principalParrafo {
+        font-size: 2vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
 }
 
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:400px) {
+
+    .foto {
+        width: 72%;
+    }
  
     .btnCv {
        
