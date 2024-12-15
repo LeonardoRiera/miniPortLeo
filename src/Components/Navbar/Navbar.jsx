@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import cuadrado from '../../Image/cuadro.png'
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
 
         <div className="container-fluid">
 
-          <Link to={"/"} className="navbar-brand nombreNavbar" >Leonardo Riera</Link>
+          <Link to={"/"} className="navbar-brand nombreNavbar" ><img src={cuadrado} alt="logo cuadrado" className='cuadrado' />Leonardo Riera</Link>
 
           <button className="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list hambur"></i>

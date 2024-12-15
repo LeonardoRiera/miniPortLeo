@@ -1,8 +1,14 @@
 .headerContainer {
     overflow: hidden;
-    padding: 8vmax 3vmax;
+    padding: 1vmax 3vmax;
+    background-color: rgb(187, 205, 255);
+   
 
     
+}
+
+.principal {
+    display: flex;
 }
 
 
@@ -16,28 +22,36 @@
 .textoContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     text-align: center;
+    padding-left: 10vmax;
+    padding-top: 3vmax;
 }
 
 .principalTitulo {
-    font-size: 5vmax;
+    font-size: 5.5vmax;
+    font-family: 'Excon', sans-serif;
+    padding-bottom: 1.5vmax;
 }
 
 .principalParrafo {
-    font-size: 1.2vmax;
+    font-size: 1.4vmax;
+    padding-bottom: 0.5vmax;
+   
+   
 }
 
 
 .foto {
-    width: 50%;
+    width: 70%;
 }
 
 .flags {
     display: flex;
     justify-content: center;
-   gap: 1vmax;
+    gap: 1vmax;
+    padding-bottom: 2vmax;
 }
 
 .banderas {
@@ -50,19 +64,31 @@
     align-items: center;
 }
 
-.btnCv {
+
+.botonDescargar {
     text-decoration: none;
-    padding: 0.8vmax 4vmax;
-    background: linear-gradient(to left, rgba(127, 0, 85, 0.8), rgb(255, 87, 210), rgb(255, 149, 225));
-    border-radius: 30px;
+    padding: 0.8vmax 3vmax;
+    /* background: linear-gradient(to left,  rgb(123, 6, 102), rgb(192, 0, 150) , rgb(123, 6, 102) , rgb(192, 0, 150) , rgb(123, 6, 102)); */
+    background-color: rgb(255, 69, 227);
+    border-radius: 5px;
     margin: 0;
-    color: white;
-    font-size: 1.5vmax;
-   width: 20%;
-   text-align: center;
-   border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vmax;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    /* Sombra inicial */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.247);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
+.botonDescargar:hover {
+    /* Efecto de agrandamiento */
+    transform: scale(1.1);
+    /* Sombra más pequeña para un efecto realista */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.441);
+    background-color: rgb(158, 0, 135);
+}
 
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
@@ -91,7 +117,28 @@
 
 @media screen and (max-width:1200px) {
 
- 
+    .headerContainer {
+       
+        padding: 4vmax 3vmax;
+        
+    
+        
+    }
+  
+    
+}
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1100px) {
+
+    .headerContainer {
+        padding: 6vmax 3vmax;
+        
+    
+        
+    }
   
     
 }
@@ -103,7 +150,47 @@
 
 @media screen and (max-width:992px) {
 
+
+
+
+    .fotoContainer {
+        order: 1;
+    }
+
+    .textoContainer {
+        order: 2;
+    }
+
+    .foto {
+        width: 50%;
+    }
+
+    .textoContainer {
+        padding-left: 0;
+        padding-top: 3vmax;
+    }
+
+    .principalTitulo {
+        font-size: 10vmax;
+        padding-bottom: 1.5vmax;
+    }
     
+    .principalParrafo {
+        font-size:2.3vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
+
+    .botonDescargar {
+        
+        padding: 1.2vmax 6vmax;
+        font-size:1.8vmax;
+        margin-bottom: 5vmax;
+        margin-top: 2vmax;
+
+       
+    }
 
 }
 
@@ -123,7 +210,15 @@
 
 @media screen and (max-width:835px)  {
 
-   
+    .foto {
+        width: 58%;
+    }
+
+    .principalTitulo {
+        font-size:8vmax;
+        padding-bottom: 1.5vmax;
+    }
+
     
     
         
@@ -135,7 +230,9 @@
 
 @media screen and (max-width:800px) {
 
-
+    .foto {
+        width: 62%;
+    }
     
 }
 
@@ -149,17 +246,23 @@
    
 
     .btnCv {
-        text-decoration: none;
+       
         padding: 1.8vmax 5vmax;
-        background: linear-gradient(to left, rgba(127, 0, 85, 0.8), rgb(255, 87, 210), rgb(255, 149, 225));
-        border-radius: 30px;
-        margin: 0;
-        color: white;
+        
         font-size: 2.2vmax;
        width: 30%;
-       text-align: center;
+       
     
     }
+
+    .fotoContainer {
+        order: 1;
+    }
+
+    .textoContainer {
+        order: 2;
+    }
+
    
 }
 
