@@ -1,0 +1,324 @@
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    margin-top: 3vmax;
+}
+
+.cuadradoFooter {
+    width: 3%;
+}
+
+.nombreFooter {
+    font-size: 2vmax;
+    margin-top: 0.9vmax;
+}
+
+.contactosFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloFooter {
+    font-size: 7vmax;
+    font-family: 'Excon', sans-serif;
+    color: #212529;
+}
+
+.listaContactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8vmax;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+}
+
+.logoFoot {
+    font-size: 3vmax;
+}
+
+
+
+.links {
+    font-size: 1.8vmax;
+    text-decoration: none;
+    color: #212529;
+    
+}
+
+.links:hover {
+    color: rgb(95, 0, 135);
+}
+
+.renglonFinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #98b3ff;
+    overflow: hidden;
+    height: 2.2vmax;
+}
+
+.derechos {
+    font-size: 0.8vmax;
+    padding-top: 1vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+    .derechos {
+        font-size: 0.8vmax;
+        padding-top: 1.5vmax;
+    }
+    
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    
+
+
+    .contactosFooter {
+        margin-top: 3vmax;
+    }
+    
+    .listaContactos {
+        padding: 0 1.5vmax;
+        gap: 4vmax
+    }
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+    
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+    .listaContactos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vmax;
+    }
+
+
+    .logoFoot {
+        font-size: 4vmax;
+    }
+    
+    
+    
+    .links {
+        font-size: 2vmax;
+        text-decoration: none;
+        color: #212529;
+        
+    }
+
+    .derechos {
+        font-size: 1.1vmax;
+        padding-top: 1vmax;
+    }
+   
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .logoFoot {
+        font-size: 5vmax;
+    }
+    
+    
+    
+    .links {
+        font-size: 3vmax;
+        text-decoration: none;
+        color: #212529;
+        
+    }
+
+    .derechos {
+        font-size: 1.5vmax;
+        padding-top: 1.5vmax;
+    }
+
+    .nameContainer {
+        padding-top: 1vmax;
+    }
+    .cuadradoFooter {
+        width: 5%;
+    }
+    
+    .nombreFooter {
+        font-size: 3vmax;
+        margin-top: 1vmax;
+    }
+   
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:581px) {
+
+    .derechos {
+        font-size: 1.3vmax;
+        padding-top: 1.8vmax;
+    }
+    
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+ 
+
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+
+    .logoFoot {
+        font-size: 4vmax;
+    }
+    
+    
+    
+    .links {
+        font-size: 2.4vmax;
+        text-decoration: none;
+        color: #212529;
+        
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:393px) {
+ 
+    
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+} 

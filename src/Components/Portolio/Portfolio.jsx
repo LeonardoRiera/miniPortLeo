@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import Boton from '../Boton/Boton'
 import foto2 from '../../Image/segundoleo.png'
 import bombilla from '../../Image/bombilla.png'
@@ -7,6 +7,12 @@ import grupo from '../../Image/grupo.png'
 import "./Portfolio.css"
 
 const Portfolio = () => {
+
+  // Este useEffect asegura que la página se desplace hacia arriba al cargar el componente, me encanto!!
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); // El array vacío indica que se ejecutará solo al montar el componente
+
   return (
     <div className='hidden'>
         <div className="row principal2">
@@ -48,7 +54,7 @@ const Portfolio = () => {
 
         </div>
         <div className='decideBoton'>
-          <Boton to="/">Inicio</Boton>
+          <Boton to="/">Volver a Inicio</Boton>
         </div>
     </div>
   )
