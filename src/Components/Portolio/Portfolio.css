@@ -1,0 +1,270 @@
+
+
+.hidden {
+    overflow: hidden;
+}
+
+.principal2 {
+    overflow: hidden;
+}
+
+.segundoleo {
+    width: 90%;
+}
+
+.containerSedungo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.textoContainer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.refer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   /*  padding: 3vmax; */
+    gap: 2vmax;
+}
+
+.logo {
+    width: 5%;
+}
+
+.textoRefer {
+    font-size: 2vmax;
+    padding-top: 0.8vmax;
+}
+
+.description {
+    padding-top: 2vmax;
+    padding-right: 5vmax;
+}
+
+.descriptionP {
+    font-size: 1.2vmax;
+}
+
+
+
+
+.decideBoton {
+    margin-top: 2.4vmax;
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   .hidden {
+    margin-top: 4vmax;
+   }
+  
+   .descriptionP {
+    font-size: 1.3vmax;
+}
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+   
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .textoContainer2 {
+        align-items: center;
+    }
+
+    .refer {
+       flex-direction: column;
+       margin-top: 4vmax;
+       
+       
+    }
+
+
+    .logo {
+        width: 10%;
+    }
+    
+    .textoRefer {
+        font-size: 3vmax;
+        padding-top: 0.4vmax;
+    }
+
+
+    .description {
+        padding-top: 2vmax;
+        padding-right: 5vmax;
+        padding-left: 5vmax;
+    }
+    
+    .descriptionP {
+        font-size:2.1vmax;
+        text-align: center;
+    }
+    
+
+    .segundoleo {
+        width: 60%;
+    }
+
+    .decideBoton {
+        margin-top: 4vmax;
+    }
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+    .logo {
+        width: 14%;
+    }
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:581px) {
+    
+    .segundoleo {
+        width: 70%;
+    }
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+ 
+
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+
+    .textoRefer {
+        font-size: 2.5vmax;
+        padding-top: 0.4vmax;
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:393px) {
+ 
+    
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+} 

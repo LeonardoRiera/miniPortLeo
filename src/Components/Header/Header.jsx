@@ -35,7 +35,7 @@ const Header = () => {
 
         </div>
         
-        <Boton to="/portfolio">Ver Portfolio</Boton>
+        <Boton to="/portfolio">Ver Perfil</Boton>
          
       
         

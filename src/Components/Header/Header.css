@@ -272,18 +272,6 @@
 
 @media screen and (max-width:581px) {
     
-    .btnCv {
-       
-        padding: 1.8vmax 5vmax;
-       
-       
-        margin: 0;
-      
-        font-size: 2.2vmax;
-       width: 40%;
-       
-    
-    }
 }
 
 
@@ -303,16 +291,7 @@
 
 @media screen and (max-width:500px) {
 
-    .btnCv {
-       
-        padding: 1.5vmax 5vmax;       
-        margin: 0;
-        font-size: 1.8vmax;
-        width: 60%;
-       
-    
-    }
-
+  
     .foto {
         width: 75%;
     }
