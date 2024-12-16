@@ -138,8 +138,13 @@
     }
     
     .descriptionP {
+        order: 1;
         font-size:2.1vmax;
         text-align: center;
+    }
+
+    .explain {
+        order: 2;
     }
     
 

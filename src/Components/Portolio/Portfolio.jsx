@@ -18,19 +18,21 @@ const Portfolio = () => {
         
           <div className="col-md-12 col-lg-7 textoContainer2 ">
 
-            <div className='refer'>
-              <img src={globo} alt="globo" className='logo' />
-              <p className='textoRefer'>Más de 10 Años de Experiencia</p>
-            </div>
+            <div className="explain">
+              <div className='refer'>
+                <img src={globo} alt="globo" className='logo' />
+                <p className='textoRefer'>Más de 10 Años de Experiencia</p>
+              </div>
 
-            <div className='refer'>
-              <img src={bombilla} alt="bombilla" className='logo' />
-              <p className='textoRefer'>Logística y Planificación</p>
-            </div>
+              <div className='refer'>
+                <img src={bombilla} alt="bombilla" className='logo' />
+                <p className='textoRefer'>Logística y Planificación</p>
+              </div>
 
-            <div className='refer'>
-              <img src={grupo} alt="grupo" className='logo' />
-              <p className='textoRefer'>Coordinación de Equipos</p>
+              <div className='refer'>
+                <img src={grupo} alt="grupo" className='logo' />
+                <p className='textoRefer'>Coordinación de Equipos</p>
+              </div>
             </div>
 
             
