@@ -32,7 +32,15 @@ const Header = () => {
               <img src={colombia} alt="bandera colombiana" className='banderas' />
 
             </div>
-            <button className='botonDescargar'>Descargar Cv</button>
+
+
+            
+
+            <a href="/cv-leo-gestionTurismo.pdf" download="cv-leo-gestionTurismo.pdf" target="_blank" rel="noopener noreferrer" className='botonDescargar'>
+            Descargar CV
+            </a>
+
+
           </div>
 
           <div className="col-md-12 col-lg-6 fotoContainer ">

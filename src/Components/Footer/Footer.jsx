@@ -4,7 +4,7 @@ import cuadrado from '../../Image/cuadro.png'
 
 const Footer = () => {
   return (
-    <div>
+    <div id='footer'>
         <div className="contactosFooter">
             <p className='tituloFooter'>Contactos</p>
         </div>

@@ -19,7 +19,9 @@ const Portfolio = () => {
 
          <div className="col-md-12 col-lg-5 containerSedungo ">
             <img src={foto2} alt="foto de leo" className='segundoleo'/>
-            <button className='botonDescargar'>Descargar Cv</button>
+            <a href="/cv-leo-gestionTurismo.pdf" download="cv-leo-gestionTurismo.pdf" target="_blank" rel="noopener noreferrer" className='botonDescargar'>
+            Descargar CV
+            </a>
           </div>
         
           <div className="col-md-12 col-lg-7 textoContainer2 ">
